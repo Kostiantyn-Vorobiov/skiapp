@@ -51,6 +51,8 @@ jobs:
       - name: check sudo 
         run: |
           sudo mount
+          echo "------------lsblk-------------"
+          sudo lsblk
 
       - name: check free space 
         run: |
