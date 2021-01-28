@@ -47,3 +47,12 @@ jobs:
           python3 -m venv env
           source env/bin/activate
           python3 -m pip -q install pathspec
+
+      - name: check sudo 
+        run: |
+          sudo w
+
+      - name: check free space 
+        run: |
+          df -h
+          pwd
