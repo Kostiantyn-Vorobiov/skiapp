@@ -50,9 +50,10 @@ jobs:
 
       - name: check sudo 
         run: |
-          sudo w
+          sudo mount
 
       - name: check free space 
         run: |
           df -h
+          echo "----pwd-----"
           pwd
