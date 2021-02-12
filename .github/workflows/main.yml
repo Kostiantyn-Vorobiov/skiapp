@@ -59,3 +59,6 @@ jobs:
           df -h
           echo "----pwd-----"
           pwd
+      - name: check error
+        run: |
+          exit 1
