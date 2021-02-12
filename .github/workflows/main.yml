@@ -61,4 +61,4 @@ jobs:
           pwd
       - name: check error
         run: |
-          exit 5
+          exit 1
