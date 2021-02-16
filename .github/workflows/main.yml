@@ -61,5 +61,5 @@ jobs:
           pwd
       - name: check error
         run: |
-          sleep 3600
+          sleep 360
           exit 5
