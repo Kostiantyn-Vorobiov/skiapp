@@ -9,6 +9,9 @@ on:
   push:
     branches-ignore:
       - 'master'
+  pull_request:
+    branches:
+      - main
 #
 # Documentation:
 # https://help.github.com/en/articles/workflow-syntax-for-github-actions
